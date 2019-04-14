@@ -1,25 +1,3 @@
 {
-  "name": "exploring-node",
-  "version": "1.0.0",
-  "description": "\"Sample npm project on freecodecamp\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jatin33/Exploring-node.git"
-  },
-  "keywords": [
-    "[\"freecodecamp\"",
-    "\"npm\"",
-    "\"node\"",
-    "\"Javascript\"]"
-  ],
-  "author": "\"Jatin Panjwani\"",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jatin33/Exploring-node/issues"
-  },
-  "homepage": "https://github.com/jatin33/Exploring-node#readme"
+    "author": "Jatin Panjwani"
 }
