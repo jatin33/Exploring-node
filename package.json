@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jatin33/Exploring-node/issues"
   },
-  "homepage": "https://github.com/jatin33/Exploring-node#readme"
+  "homepage": "https://github.com/jatin33/Exploring-node#readme",
+  "devDependencies": {
+    "learnyounode": "^3.5.10"
+  }
 }
