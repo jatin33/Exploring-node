@@ -23,5 +23,8 @@
   "homepage": "https://github.com/jatin33/Exploring-node#readme",
   "devDependencies": {
     "learnyounode": "^3.5.10"
+  },
+  "dependencies": {
+    "bl": "^3.0.0"
   }
 }
