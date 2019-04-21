@@ -25,12 +25,26 @@
 //     });
 // });
 
+// Basic Http client server
+// const http = require('http');
+// // console.log(process.argv[2]);
+// http.get(process.argv[2], (res) => {
+//     res.setEncoding('utf8');
+//     res.on('data', (d) => {
+//         console.log(d);
+//     });
+//     res.on('error', console.error);
+// }).on('error', console.error);
+
+// http-collect
+const bl = require('bl');
 const http = require('http');
-// console.log(process.argv[2]);
-http.get(process.argv[2], (res) => {
-    res.setEncoding('utf8');
-    res.on('data', (d) => {
-        console.log(d);
-    });
-    res.on('error', console.error);
-}).on('error', console.error);
+const url = process.argv[2].toString();
+
+http.get(url, function (response) {
+    response.pipe(bl(function (err, data) {
+        if (err) return console.error(err);
+        console.log(data.toString().length);
+        console.log(data.toString());
+    }));
+});
